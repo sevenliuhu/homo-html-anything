@@ -1,0 +1,25 @@
+{
+  "name": "homo-html-anything",
+  "version": "1.0.0",
+  "description": "📄 AI电商物料生成器 · 75技能模板 · 一键小红书/抖音/微信",
+  "private": true,
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.33.2",
+  "keywords": [
+    "ecommerce",
+    "电商",
+    "html",
+    "xiaohongshu",
+    "小红书",
+    "douyin",
+    "抖音",
+    "wechat",
+    "微信",
+    "ai",
+    "template",
+    "物料生成"
+  ],
+  "devDependencies": {
+    "tsx": "^4.22.1"
+  }
+}
