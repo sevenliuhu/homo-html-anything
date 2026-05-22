@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HOMO 🎵 抖音带货脚本 · 蓝牙耳机</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#161823;font-family:'Noto Sans SC','Inter',sans-serif;padding:20px;color:#e7e9ea}
+  .deck{display:flex;flex-direction:column;align-items:center;gap:16px}
+  .slide{width:400px;aspect-ratio:9/16;border-radius:20px;overflow:hidden;background:#1e1e2e;position:relative;padding:40px 24px;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .scene{flex:1;border-radius:12px;background:linear-gradient(135deg,#2a2a40,#1a1a2e);display:flex;align-items:center;justify-content:center;margin-bottom:12px;position:relative}
+  .scene-label{position:absolute;bottom:10px;left:12px;font-size:11px;color:rgba(255,255,255,.4);font-family:'JetBrains Mono',monospace}
+  .script{font-size:16px;line-height:1.6;padding:12px 0;flex-shrink:0}
+  .script .voice{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;margin-right:6px}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-shrink:0}
+  .meta .num{font-family:'JetBrains Mono',monospace;font-size:13px;color:#00f2ea}
+  .meta .duration{font-family:'JetBrains Mono',monospace;font-size:12px;color:rgba(255,255,255,.4)}
+  .tag-sfx{position:absolute;top:10px;right:10px;font-size:10px;padding:3px 8px;border-radius:4px;font-weight:600}
+  @media(min-width:900px){.deck{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:16px}.slide{width:360px}}
+</style>
+</head>
+<body>
+<div style="text-align:center;margin-bottom:24px">
+  <h1 style="font-size:28px;font-weight:900;background:linear-gradient(135deg,#00f2ea,#fe2c55);-webkit-background-clip:text;-webkit-text-fill-color:transparent">🎬 HOMO 带货脚本</h1>
+  <p style="color:rgba(255,255,255,.4);font-size:13px">HOMO 智能蓝牙耳机 Pro · 8 镜脚本</p>
+</div>
+<div class="deck">
+  <!-- Slide 1: Hook -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 01/08</span><span class="duration">0:00-0:05</span></div>
+    <div class="scene">
+      <span style="font-size:36px">😱</span>
+      <span class="tag-sfx" style="background:#fe2c55;color:#fff">HOOK</span>
+      <span class="scene-label">特写 · 震惊脸 · 手持耳机盒</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 震惊</span>兄弟姐妹们！这个耳机只要 299！主动降噪 42dB！<br/><span style="color:#fe2c55;font-size:11px">BGM: 节奏鼓点 · SFX: 叮🔔</span></div>
+  </div>
+  <!-- Slide 2: Pain -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 02/08</span><span class="duration">0:06-0:12</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🤯</span>
+      <span class="tag-sfx" style="background:#00f2ea;color:#000">痛点</span>
+      <span class="scene-label">地铁场景 · 噪音乐谱</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#555;color:#fff">🎤 正常</span>你是不是也这样？地铁上想看会视频, 周围吵得要命…<br/><span style="color:#00f2ea;font-size:11px">BGM: 噪音采样过渡</span></div>
+  </div>
+  <!-- Slide 3: Solution -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 03/08</span><span class="duration">0:13-0:20</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🤩</span>
+      <span class="tag-sfx" style="background:#fe2c55;color:#fff">解决方案</span>
+      <span class="scene-label">特写 · 戴上耳机 · 安静表情</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 夸张</span>HOMO Pro 一戴！世界瞬间安静！ANC 42dB 主动降噪, 真的啥都听不见！<br/><span style="color:#fe2c55;font-size:11px">BGM: 安静 → 音效woosh · VFX: 静音图标出现</span></div>
+  </div>
+  <!-- Slide 4: Feature -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 04/08</span><span class="duration">0:21-0:28</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🔋</span>
+      <span class="tag-sfx" style="background:#00f2ea;color:#000">卖点1</span>
+      <span class="scene-label">分屏: 左充电→右48h</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#555;color:#fff">🎤 正常</span>续航更是离谱！充一次用 48 小时！我出差一周都没充过电！<br/><span style="color:#00f2ea;font-size:11px">BGM: 轻快 · SFX: 充电音</span></div>
+  </div>
+  <!-- Slide 5: Feature 2 -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 05/08</span><span class="duration">0:29-0:35</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🌊</span>
+      <span class="tag-sfx" style="background:#fe2c55;color:#fff">卖点2</span>
+      <span class="scene-label">淋水展示 · IPX5</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 调侃</span>IPX5 防水知道啥意思不？就是跑步暴汗、下雨跑步, 完全不用担心！<br/><span style="color:#fe2c55;font-size:11px">BGM: 运动鼓点 · VFX: 水花特效</span></div>
+  </div>
+  <!-- Slide 6: Price -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 06/08</span><span class="duration">0:36-0:42</span></div>
+    <div class="scene">
+      <span style="font-size:36px">💰</span>
+      <span class="tag-sfx" style="background:#ffd700;color:#000">价格</span>
+      <span class="scene-label">价格对比 · 原价划线→现价大字</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 重磅</span>重点来了！原价 599, 今天直播间只要 299！直接打 5 折！<br/><span style="color:#ffd700;font-size:11px">BGM: 高潮 · SFX: 价格揭示🎉</span></div>
+  </div>
+  <!-- Slide 7: Offer -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 07/08</span><span class="duration">0:43-0:48</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🎁</span>
+      <span class="tag-sfx" style="background:#fe2c55;color:#fff">福利</span>
+      <span class="scene-label">赠品展示: 充电线+保护套</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 促销</span>今天下单还送原装充电线+硅胶保护套！限量 500 单, 抢完恢复原价！<br/><span style="color:#fe2c55;font-size:11px">BGM: 紧迫感 · SFX: 倒计时滴答</span></div>
+  </div>
+  <!-- Slide 8: CTA -->
+  <div class="slide">
+    <div class="meta"><span class="num">🎬 08/08</span><span class="duration">0:49-0:53</span></div>
+    <div class="scene">
+      <span style="font-size:36px">🚀</span>
+      <span class="tag-sfx" style="background:#00f2ea;color:#000">CTA</span>
+      <span class="scene-label">购买链接/二维码</span>
+    </div>
+    <div class="script"><span class="voice" style="background:#fe2c55;color:#fff">🎤 CTA</span>左下角小黄车！手慢无！赶紧冲！<br/><span style="color:#00f2ea;font-size:11px">BGM: 结尾 · SFX: 下单提示音</span></div>
+  </div>
+</div>
+<div style="text-align:center;margin-top:20px;font-size:12px;color:rgba(255,255,255,.3)">HOMO 带货脚本 · 蓝牙耳机 Pro · 2025</div>
+</body>
+</html>
