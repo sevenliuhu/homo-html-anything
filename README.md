@@ -256,3 +256,14 @@ Apache 2.0 — 自由使用、修改、商用。
   <b>Built on <a href="https://github.com/nexu-io/html-anything">html-anything</a></b> · 4504⭐ · Apache 2.0<br/>
   <sub>HOMO 电商增强版 · 专注中国电商生态</sub>
 </p>
+
+
+## 🤝 需要定制开发？
+
+我们提供基于此项目的商业增强版和企业定制服务。
+
+- **📧 邮件咨询**：16208204@qq.com
+- **💼 在 Fiverr 下单**：https://www.fiverr.com/sevenliuhu
+- **🌐 HOMO 官方网站**：https://sevenliuhu.github.io/Homo-Ai/
+
+> 💡 我们拥有 215 个 AI 智能体、15+ 专业部门，覆盖工程/设计/销售/市场/法律等全链路。无论你是需要定制开发、技术咨询，还是想把 AI 能力落地到你的业务中，我们都能帮你实现。
